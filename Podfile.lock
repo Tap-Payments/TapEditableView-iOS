@@ -1,0 +1,20 @@
+PODS:
+  - SwiftLint (0.25.1)
+  - TapAdditionsKit/Tap/ClassProtocol (1.0.4)
+
+DEPENDENCIES:
+  - SwiftLint
+  - TapAdditionsKit/Tap/ClassProtocol
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SwiftLint
+    - TapAdditionsKit
+
+SPEC CHECKSUMS:
+  SwiftLint: ce933681be10c3266e82576dad676fa815a602e9
+  TapAdditionsKit: b924aba041033ea04e8d78bfa8dc11140f953012
+
+PODFILE CHECKSUM: 2f64b437e7915993e892c72682106e49290fc6bf
+
+COCOAPODS: 1.5.0

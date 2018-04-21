@@ -32,6 +32,40 @@ open class TapEditableView: UIView {
         return true
     }
 
+    open override var inputView: UIView? {
+
+        get {
+
+            return self.storedInputView
+        }
+        set {
+
+            self.storedInputView = newValue
+
+            if self.isFirstResponder {
+
+                self.reloadInputViews()
+            }
+        }
+    }
+
+    open override var inputAccessoryView: UIView? {
+
+        get {
+
+            return self.storedInputAccessoryView
+        }
+        set {
+
+            self.storedInputAccessoryView = newValue
+
+            if self.isFirstResponder {
+
+                self.reloadInputViews()
+            }
+        }
+    }
+
     // MARK: Methods
 
     @discardableResult open override func becomeFirstResponder() -> Bool {
@@ -76,6 +110,9 @@ open class TapEditableView: UIView {
     // MARK: Properties
 
     private var tapRecognizer: UITapGestureRecognizer?
+
+    private var storedInputView: UIView?
+    private var storedInputAccessoryView: UIView?
 
     // MARK: Methods
 

@@ -1,6 +1,6 @@
 PODS:
-  - SwiftLint (0.27.0)
-  - TapAdditionsKit/Tap/ClassProtocol (1.1)
+  - SwiftLint (0.29.3)
+  - TapAdditionsKit/Tap/ClassProtocol (1.2)
 
 DEPENDENCIES:
   - SwiftLint
@@ -12,9 +12,9 @@ SPEC REPOS:
     - TapAdditionsKit
 
 SPEC CHECKSUMS:
-  SwiftLint: 3207c1faa2240bf8973b191820a116113cd11073
-  TapAdditionsKit: 140a088872313f07b047d803e7fa513a1f8d4f6d
+  SwiftLint: bfa7ca7b4d170cfaf0d236ca3ffd969e88a2f002
+  TapAdditionsKit: ec0e7e864ad1590e0c2f62230100e2621499458f
 
 PODFILE CHECKSUM: 2f64b437e7915993e892c72682106e49290fc6bf
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.0.beta.1

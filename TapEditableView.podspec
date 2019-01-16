@@ -1,4 +1,4 @@
-TapAdditionsKitDependencyVersion = '1.1' unless defined? TapAdditionsKitDependencyVersion
+TapAdditionsKitDependencyVersion = '>= 1.2' unless defined? TapAdditionsKitDependencyVersion
 
 Pod::Spec.new do |tapEditableView|
     
@@ -8,7 +8,7 @@ Pod::Spec.new do |tapEditableView|
     tapEditableView.name                    = 'TapEditableView'
     tapEditableView.summary                 = 'Editable view.'
     tapEditableView.requires_arc            = true
-    tapEditableView.version                 = '1.0.2'
+    tapEditableView.version                 = '1.0.3'
     tapEditableView.license                 = { :type => 'MIT', :file => 'LICENSE' }
     tapEditableView.author                  = { 'Tap Payments' => 'hello@tap.company' }
     tapEditableView.homepage                = 'https://github.com/Tap-Payments/TapEditableView-iOS'
